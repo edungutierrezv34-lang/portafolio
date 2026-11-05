@@ -30,10 +30,15 @@ a:hover { color: @tinta; }
   padding: 1rem clamp(1rem, 5vw, 3rem);
   transition: background .3s, box-shadow .3s;
 
+  .marca, .menu a { color: @papel; }
+
   &--fija {
     background: fade(@papel, 94%);
     box-shadow: 0 1px 0 @sepia;
     backdrop-filter: blur(4px);
+
+    .marca { color: @tinta; }
+    .menu a { color: @sepia; &:hover { color: @burdeos; } }
   }
 }
 
@@ -61,16 +66,41 @@ a:hover { color: @tinta; }
 }
 
 .portada {
-  max-width: @ancho;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 7rem 1.5rem 3rem;
   display: grid;
-  grid-template-columns: 1.1fr .9fr;
-  gap: 3rem;
-  align-items: center;
+  place-items: center;
+  padding: 7rem 1.5rem 4rem;
 
-  @media @tablet { grid-template-columns: 1fr; text-align: center; padding-top: 6rem; }
+  &::before {
+    content: "";
+    position: absolute;
+    inset: -60px;
+    z-index: -1;
+    background: url("../foto.webp") center 20% / cover no-repeat;
+    filter: blur(28px) sepia(.65) brightness(.8) saturate(.9);
+    transform: scale(1.15);
+  }
+
+  &__vidrio {
+    width: 100%;
+    max-width: @ancho;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 3.5rem 3rem;
+    background: fade(@papel, 52%);
+    border: 1px solid fade(#fff, 55%);
+    border-radius: 18px;
+    box-shadow: 0 30px 70px rgba(30, 18, 10, .45), inset 0 1px 0 fade(#fff, 60%);
+    -webkit-backdrop-filter: blur(22px) saturate(1.3);
+    backdrop-filter: blur(22px) saturate(1.3);
+
+    @media @tablet { grid-template-columns: 1fr; text-align: center; padding: 2.5rem 1.5rem; }
+  }
 }
 
 .sobretitulo {
