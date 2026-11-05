@@ -3,138 +3,174 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eduin Gutierrez · Ingeniería en Ciencia de la Computación</title>
-  <meta name="description" content="Portafolio de Eduin Gutierrez, estudiante de Ingeniería en Ciencia de la Computación.">
+  <title>Eduin Gutierrez · Datos, sistemas y diseño</title>
+  <meta name="description" content="Portafolio de Eduin Gutierrez, estudiante de Ingeniería en Ciencia de la Computación: Business Intelligence, bases de datos y desarrollo en C#.">
+  <meta name="theme-color" content="#14040a">
   <script type="module" src="/src/main.js"></script>
 </head>
 <body>
   <header class="cabecera">
-    <a class="marca" href="#inicio">E. G.</a>
+    <a class="marca" href="#inicio">Eduin <em>G.</em></a>
     <nav class="menu">
       <a href="#sobre-mi">Sobre mí</a>
-      <a href="#formacion">Formación</a>
-      <a href="#oficio">Oficio</a>
-      <a href="#obras">Obras</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#trayectoria">Trayectoria</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
   <main>
-    <section class="portada" id="inicio">
-      <div class="portada__vidrio">
-      <div class="portada__texto">
-        <p class="sobretitulo">Portafolio · Anno MMXXVI</p>
-        <h1 class="titulo">Eduin<br>Gutierrez</h1>
-        <p class="lema">Estudiante de Ingeniería en Ciencia de la Computación</p>
-        <p class="resumen">Datos, sistemas y documentación técnica, trabajados con el cuidado de un viejo taller de imprenta.</p>
-        <a class="boton" href="#obras">Ver obras</a>
+    <section class="hero" id="inicio">
+      <div class="hero__fondo"></div>
+      <div class="hero__texto">
+        <p class="kicker">Business Intelligence · Bases de datos · C#</p>
+        <h1 class="hero__titulo">
+          <span class="linea">Convierto</span>
+          <span class="linea">datos en</span>
+          <span class="linea"><em>decisiones.</em></span>
+        </h1>
+        <p class="hero__resumen">Soy Eduin Gutierrez, estudiante de Ingeniería en Ciencia de la Computación. Diseño modelos de datos, dashboards y sistemas con orden, detalle y buen gusto.</p>
+        <div class="hero__enlaces">
+          <a class="enlace" href="#proyectos">Ver proyectos</a>
+          <a class="enlace enlace--suave" href="#contacto">Hablemos</a>
+        </div>
       </div>
-      <img class="recorte" src="/src/recorte.webp" alt="Retrato de Eduin Gutierrez" width="820" height="855">
+
+      <div class="escena">
+        <div class="escena__circulo"></div>
+        <svg class="sello" viewBox="0 0 200 200" aria-hidden="true">
+          <defs>
+            <path id="anillo" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/>
+          </defs>
+          <text><textPath href="#anillo" textLength="480">ESTUDIANTE DE CIENCIA DE LA COMPUTACIÓN · TEGUCIGALPA · </textPath></text>
+          <path class="sello__estrella" d="M100 84 L104 96 L116 100 L104 104 L100 116 L96 104 L84 100 L96 96 Z"/>
+        </svg>
+        <img class="escena__retrato" src="/src/recorte.webp" alt="Retrato de Eduin Gutierrez" width="489" height="510">
+        <span class="escena__flor escena__flor--a"></span>
+        <span class="escena__flor escena__flor--b"></span>
       </div>
     </section>
 
-    <section class="seccion" id="sobre-mi">
-      <h2 class="seccion__titulo"><span>I</span> Sobre mí</h2>
-      <div class="columnas">
-        <p class="capitular">Estudiante de tercer año de Ingeniería en Ciencia de la Computación en la Universidad Católica de Honduras, con formación técnica como Bachiller Técnico en Informática. Cuenta con práctica en el sector corporativo de desarrollo de software, donde desarrolló habilidades de liderazgo, trabajo en equipo y documentación técnica.</p>
-        <ul class="datos">
-          <li><strong>Trabajo en equipo</strong> y comunicación efectiva</li>
-          <li><strong>Organización</strong> y atención al detalle</li>
-          <li><strong>Liderazgo</strong> en proyectos de clase</li>
-        </ul>
+    <div class="cinta" aria-hidden="true">
+      <div class="cinta__pista">
+        <span>Power BI</span><i>✦</i><span>SQL Server</span><i>✦</i><span>C#</span><i>✦</i><span>Zoho Analytics</span><i>✦</i><span>Data Warehouse</span><i>✦</i><span>Excel</span><i>✦</i>
+        <span>Power BI</span><i>✦</i><span>SQL Server</span><i>✦</i><span>C#</span><i>✦</i><span>Zoho Analytics</span><i>✦</i><span>Data Warehouse</span><i>✦</i><span>Excel</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="seccion sobre" id="sobre-mi">
+      <p class="etiqueta">Sobre mí</p>
+      <div class="sobre__rejilla">
+        <h2 class="titulo-seccion">Los datos se encuentran con <em>el código.</em></h2>
+        <p class="sobre__texto">Estudiante de tercer año de Ingeniería en Ciencia de la Computación en la Universidad Católica de Honduras, con formación técnica como Bachiller Técnico en Informática. Mi práctica en el sector corporativo de desarrollo de software me dio liderazgo, trabajo en equipo y el hábito de documentar bien lo que construyo.</p>
+      </div>
+      <div class="cifras">
+        <article class="cifra"><strong>3.<sup>er</sup></strong><span>año de Ingeniería en Ciencia de la Computación</span></article>
+        <article class="cifra"><strong>6</strong><span>meses de práctica profesional en Grupo Solit-Corp</span></article>
+        <article class="cifra"><strong>4</strong><span>proyectos académicos y personales</span></article>
+        <article class="cifra"><strong>C#</strong><span>y SQL Server como base de mi trabajo</span></article>
       </div>
     </section>
 
-    <section class="seccion" id="formacion">
-      <h2 class="seccion__titulo"><span>II</span> Formación</h2>
-      <ol class="linea">
-        <li>
-          <time>2023 — presente</time>
-          <h3>Universidad Católica de Honduras</h3>
-          <p>Ingeniería en Ciencia de la Computación</p>
-        </li>
-        <li>
-          <time>2020 — 2022</time>
-          <h3>Instituto Gubernamental El Bosque</h3>
-          <p>Bachillerato Técnico en Informática</p>
-        </li>
+    <section class="seccion" id="proyectos">
+      <p class="etiqueta">Trabajos destacados</p>
+      <h2 class="titulo-seccion titulo-seccion--ancho">Proyectos que <em>cuentan una historia.</em></h2>
+      <div class="proyectos">
+        <article class="proyecto">
+          <div class="proyecto__imagen"><img src="/src/img/bi.svg" alt="Panel de Business Intelligence con indicadores y gráficos" loading="lazy"></div>
+          <div class="proyecto__cuerpo">
+            <span class="proyecto__num">01</span>
+            <h3>Sistema de BI · Análisis empresarial</h3>
+            <p>Ciclo completo de Business Intelligence: datos, Data Warehouse y dashboards. Coordiné el equipo del proyecto de clase.</p>
+            <p class="etiquetas">Zoho Analytics · SQL · Excel</p>
+          </div>
+        </article>
+        <article class="proyecto">
+          <div class="proyecto__imagen"><img src="/src/img/olap.svg" alt="Modelo estrella con tabla de hechos y cuatro dimensiones" loading="lazy"></div>
+          <div class="proyecto__cuerpo">
+            <span class="proyecto__num">02</span>
+            <h3>Data Warehouse y cubos OLAP</h3>
+            <p>Diseño de modelo estrella y dashboards ejecutivos para analizar la información desde cualquier ángulo.</p>
+            <p class="etiquetas">Power BI · SQL Server</p>
+          </div>
+        </article>
+        <article class="proyecto">
+          <div class="proyecto__imagen"><img src="/src/img/hotel.svg" alt="Sistema de gestión hotelera con habitaciones y ocupación" loading="lazy"></div>
+          <div class="proyecto__cuerpo">
+            <span class="proyecto__num">03</span>
+            <h3>Sistema de gestión hotelera</h3>
+            <p>Desarrollo del ciclo de vida completo de un sistema: reservas, habitaciones, huéspedes y facturación.</p>
+            <p class="etiquetas">C# · SQL Server</p>
+          </div>
+        </article>
+        <article class="proyecto">
+          <div class="proyecto__imagen"><img src="/src/img/mar.svg" alt="Monitor de ecosistemas marinos hondureños" loading="lazy"></div>
+          <div class="proyecto__cuerpo">
+            <span class="proyecto__num">04</span>
+            <h3>Simulador de ecosistemas marinos</h3>
+            <p>Proyecto personal: monitoreo de ecosistemas marinos hondureños con un módulo de simulación ambiental.</p>
+            <p class="etiquetas">C# · SQL Server · API Claude AI</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion" id="proceso">
+      <p class="etiqueta">Mi proceso</p>
+      <h2 class="titulo-seccion titulo-seccion--ancho">Del dato crudo a la <em>decisión.</em></h2>
+      <ol class="pasos">
+        <li><span>01</span><h3>Datos</h3><p>Reúno y limpio la información de origen.</p></li>
+        <li><span>02</span><h3>Modelo</h3><p>Diseño el Data Warehouse en estrella.</p></li>
+        <li><span>03</span><h3>Dashboard</h3><p>Visualizo lo importante, sin ruido.</p></li>
+        <li><span>04</span><h3>Pruebas</h3><p>Verifico cifras y casos límite.</p></li>
+        <li><span>05</span><h3>Entrega</h3><p>Documento y presento el resultado.</p></li>
       </ol>
     </section>
 
-    <section class="seccion" id="oficio">
-      <h2 class="seccion__titulo"><span>III</span> Oficio y herramientas</h2>
-      <div class="rejilla">
-        <article class="ficha">
+    <section class="seccion" id="trayectoria">
+      <p class="etiqueta">Trayectoria</p>
+      <div class="trayecto">
+        <article class="tarjeta">
           <h3>Experiencia</h3>
-          <p><strong>Practicante profesional</strong><br>Grupo Solit-Corp · 6 meses</p>
+          <p class="tarjeta__titulo">Practicante profesional</p>
+          <p class="tarjeta__sub">Grupo Solit-Corp · 6 meses</p>
           <ul>
             <li>Apoyo en la documentación técnica de sistemas internos.</li>
             <li>Participación en pruebas básicas de software.</li>
-            <li>Registro y organización de información del área de sistemas.</li>
+            <li>Registro y organización de la información del área de sistemas.</li>
           </ul>
         </article>
-        <article class="ficha">
-          <h3>Conocimientos técnicos</h3>
+        <article class="tarjeta">
+          <h3>Formación</h3>
+          <p class="tarjeta__titulo">Universidad Católica de Honduras</p>
+          <p class="tarjeta__sub">Ingeniería en Ciencia de la Computación · 2023 — presente</p>
+          <p class="tarjeta__titulo">Instituto Gubernamental El Bosque</p>
+          <p class="tarjeta__sub">Bachillerato Técnico en Informática · 2020 — 2022</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Herramientas</h3>
           <ul>
-            <li>Business Intelligence: Power BI, Zoho Analytics</li>
-            <li>Bases de datos: SQL Server</li>
-            <li>Programación: C# con Visual Studio</li>
+            <li><strong>BI:</strong> Power BI, Zoho Analytics</li>
+            <li><strong>Datos:</strong> SQL Server</li>
+            <li><strong>Código:</strong> C# con Visual Studio</li>
+            <li><strong>Oficina:</strong> Word avanzado, Excel, PowerPoint</li>
           </ul>
-        </article>
-        <article class="ficha">
-          <h3>Ofimática</h3>
-          <ul>
-            <li>Microsoft Word, avanzado</li>
-            <li>Excel, intermedio-alto</li>
-            <li>PowerPoint</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="seccion" id="obras">
-      <h2 class="seccion__titulo"><span>IV</span> Obras</h2>
-      <div class="obras">
-        <article class="obra">
-          <span class="obra__num">N.º 1</span>
-          <h3>Sistema de BI · Análisis empresarial</h3>
-          <p>Implementación del ciclo completo de Business Intelligence: datos, Data Warehouse y dashboards. Coordinación del equipo de trabajo.</p>
-          <p class="etiquetas">Zoho Analytics · SQL · Excel</p>
-        </article>
-        <article class="obra">
-          <span class="obra__num">N.º 2</span>
-          <h3>Data Warehouse y cubos OLAP</h3>
-          <p>Diseño de modelo estrella y dashboards ejecutivos.</p>
-          <p class="etiquetas">Power BI · SQL Server</p>
-        </article>
-        <article class="obra">
-          <span class="obra__num">N.º 3</span>
-          <h3>Sistema de gestión hotelera</h3>
-          <p>Desarrollo del ciclo de vida completo de un sistema.</p>
-          <p class="etiquetas">C# · SQL Server</p>
-        </article>
-        <article class="obra">
-          <span class="obra__num">N.º 4</span>
-          <h3>Simulador de ecosistemas marinos</h3>
-          <p>Proyecto personal: monitoreo de ecosistemas marinos hondureños con módulo de simulación ambiental.</p>
-          <p class="etiquetas">C# · SQL Server · API Claude AI</p>
         </article>
       </div>
     </section>
 
     <section class="seccion contacto" id="contacto">
-      <h2 class="seccion__titulo"><span>V</span> Contacto</h2>
-      <p class="contacto__texto">Escríbame, con gusto responderé.</p>
-      <ul class="contacto__lista">
-        <li><a href="mailto:eduingutierrez63@gmail.com">eduingutierrez63@gmail.com</a></li>
-        <li><a href="tel:+50499499338">9949-9338</a></li>
-        <li>Tegucigalpa, Francisco Morazán</li>
-      </ul>
+      <p class="etiqueta">Contacto</p>
+      <h2 class="contacto__titulo">¿Hablamos de tu próximo <em>proyecto?</em></h2>
+      <a class="correo" href="mailto:eduingutierrez63@gmail.com">eduingutierrez63@gmail.com</a>
+      <p class="contacto__datos"><a href="tel:+50499499338">9949-9338</a><i>✦</i>Tegucigalpa, Honduras</p>
     </section>
   </main>
 
   <footer class="pie">
-    <p>Eduin Gutierrez · MMXXVI</p>
+    <p>Eduin Gutierrez · 2026</p>
+    <a class="enlace enlace--suave" href="#inicio">Volver arriba</a>
   </footer>
 </body>
 </html>
