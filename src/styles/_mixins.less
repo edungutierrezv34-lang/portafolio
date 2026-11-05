@@ -1,12 +1,25 @@
-.marco-doble(@color: @sepia) {
-  border: 1px solid @color;
-  outline: 1px solid @color;
-  outline-offset: 5px;
+.vidrio(@opacidad: .07) {
+  background: linear-gradient(145deg, fade(@crema, @opacidad * 100%), fade(@crema, 2%));
+  border: 1px solid fade(@rosa, 22%);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 20px 50px fade(#000, 35%), inset 0 1px 0 fade(@crema, 12%);
 }
 
-.regla-ornamental() {
-  content: "";
-  display: block;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, @oro, transparent);
+.titulo-grande(@tam: 5rem) {
+  font-family: @display;
+  font-weight: 400;
+  font-size: @tam;
+  line-height: .98;
+  text-transform: uppercase;
+  color: @rosa-claro;
+  letter-spacing: .01em;
+}
+
+.acento() {
+  font-family: @acento;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
+  color: @rosa;
 }
