@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6dccf"/>
+      <stop offset="1" stop-color="#e7a893"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#fondo)"/>
+  <circle cx="580" cy="40" r="130" fill="#fff4ee" opacity=".5"/>
+  <rect x="0" y="0" width="150" height="400" fill="#3a0d19"/>
+  <circle cx="40" cy="40" r="12" fill="#f3b99f"/>
+  <text x="62" y="45" fill="#f6dccf" font-size="12" letter-spacing="3">HOTEL</text>
+  <g fill="#f6dccf" opacity=".85" font-size="11" letter-spacing="1">
+    <text x="28" y="110">Reservas</text>
+    <text x="28" y="146">Habitaciones</text>
+    <text x="28" y="182">Huéspedes</text>
+    <text x="28" y="218">Facturación</text>
+  </g>
+  <rect x="16" y="94" width="4" height="22" rx="2" fill="#f3b99f"/>
+
+  <text x="176" y="44" fill="#3a0d19" font-size="16" letter-spacing="2">HABITACIONES</text>
+  <g>
+    <g transform="translate(176 66)">
+      <rect width="130" height="86" rx="12" fill="#fff4ee"/>
+      <text x="14" y="28" fill="#3a0d19" font-size="18">101</text>
+      <rect x="14" y="44" width="62" height="18" rx="9" fill="#7ac19a"/>
+      <text x="26" y="57" fill="#1d4d34" font-size="9">LIBRE</text>
+    </g>
+    <g transform="translate(318 66)">
+      <rect width="130" height="86" rx="12" fill="#3a0d19"/>
+      <text x="14" y="28" fill="#fff4ee" font-size="18">102</text>
+      <rect x="14" y="44" width="76" height="18" rx="9" fill="#d9644f"/>
+      <text x="26" y="57" fill="#fff4ee" font-size="9">OCUPADA</text>
+    </g>
+    <g transform="translate(460 66)">
+      <rect width="130" height="86" rx="12" fill="#fff4ee"/>
+      <text x="14" y="28" fill="#3a0d19" font-size="18">103</text>
+      <rect x="14" y="44" width="62" height="18" rx="9" fill="#7ac19a"/>
+      <text x="26" y="57" fill="#1d4d34" font-size="9">LIBRE</text>
+    </g>
+    <g transform="translate(176 166)">
+      <rect width="130" height="86" rx="12" fill="#3a0d19"/>
+      <text x="14" y="28" fill="#fff4ee" font-size="18">201</text>
+      <rect x="14" y="44" width="76" height="18" rx="9" fill="#d9644f"/>
+      <text x="26" y="57" fill="#fff4ee" font-size="9">OCUPADA</text>
+    </g>
+    <g transform="translate(318 166)">
+      <rect width="130" height="86" rx="12" fill="#fff4ee"/>
+      <text x="14" y="28" fill="#3a0d19" font-size="18">202</text>
+      <rect x="14" y="44" width="76" height="18" rx="9" fill="#f3b99f"/>
+      <text x="26" y="57" fill="#6b2230" font-size="9">LIMPIEZA</text>
+    </g>
+    <g transform="translate(460 166)">
+      <rect width="130" height="86" rx="12" fill="#3a0d19"/>
+      <text x="14" y="28" fill="#fff4ee" font-size="18">203</text>
+      <rect x="14" y="44" width="76" height="18" rx="9" fill="#d9644f"/>
+      <text x="26" y="57" fill="#fff4ee" font-size="9">OCUPADA</text>
+    </g>
+  </g>
+  <rect x="176" y="270" width="414" height="100" rx="14" fill="#fff4ee"/>
+  <text x="194" y="296" fill="#6b2230" font-size="10" letter-spacing="2">OCUPACIÓN DE LA SEMANA</text>
+  <g fill="#d9644f">
+    <rect x="200" y="330" width="26" height="26" rx="6" opacity=".5"/>
+    <rect x="250" y="318" width="26" height="38" rx="6" opacity=".65"/>
+    <rect x="300" y="308" width="26" height="48" rx="6" opacity=".8"/>
+    <rect x="350" y="312" width="26" height="44" rx="6" opacity=".7"/>
+    <rect x="400" y="302" width="26" height="54" rx="6"/>
+    <rect x="450" y="314" width="26" height="42" rx="6" opacity=".75"/>
+    <rect x="500" y="324" width="26" height="32" rx="6" opacity=".55"/>
+  </g>
+</svg>

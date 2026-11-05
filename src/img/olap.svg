@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a0912"/>
+      <stop offset="1" stop-color="#5a1424"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#fondo)"/>
+  <circle cx="60" cy="380" r="150" fill="#d9644f" opacity=".12"/>
+  <text x="24" y="34" fill="#f6dccf" font-size="13" letter-spacing="3">MODELO ESTRELLA</text>
+
+  <g stroke="#f3b99f" stroke-opacity=".55" stroke-width="1.5" stroke-dasharray="4 5">
+    <line x1="320" y1="205" x2="120" y2="100"/>
+    <line x1="320" y1="205" x2="520" y2="100"/>
+    <line x1="320" y1="205" x2="120" y2="310"/>
+    <line x1="320" y1="205" x2="520" y2="310"/>
+  </g>
+
+  <g>
+    <rect x="228" y="150" width="184" height="110" rx="14" fill="#f3b99f"/>
+    <text x="320" y="178" fill="#2a0a12" font-size="12" letter-spacing="3" text-anchor="middle">HECHOS · VENTAS</text>
+    <rect x="248" y="192" width="144" height="6" rx="3" fill="#2a0a12" opacity=".35"/>
+    <rect x="248" y="208" width="110" height="6" rx="3" fill="#2a0a12" opacity=".35"/>
+    <rect x="248" y="224" width="128" height="6" rx="3" fill="#2a0a12" opacity=".35"/>
+    <rect x="248" y="240" width="90" height="6" rx="3" fill="#2a0a12" opacity=".35"/>
+  </g>
+
+  <g fill="#f6dccf" fill-opacity=".1" stroke="#f3b99f" stroke-opacity=".5">
+    <rect x="40" y="60" width="160" height="80" rx="12"/>
+    <rect x="440" y="60" width="160" height="80" rx="12"/>
+    <rect x="40" y="270" width="160" height="80" rx="12"/>
+    <rect x="440" y="270" width="160" height="80" rx="12"/>
+  </g>
+  <g fill="#fff4ee" font-size="11" letter-spacing="2">
+    <text x="56" y="84">TIEMPO</text>
+    <text x="456" y="84">PRODUCTO</text>
+    <text x="56" y="294">CLIENTE</text>
+    <text x="456" y="294">REGIÓN</text>
+  </g>
+  <g fill="#f3b99f" opacity=".7">
+    <rect x="56" y="98" width="100" height="5" rx="2.5"/><rect x="56" y="112" width="70" height="5" rx="2.5"/>
+    <rect x="456" y="98" width="100" height="5" rx="2.5"/><rect x="456" y="112" width="70" height="5" rx="2.5"/>
+    <rect x="56" y="308" width="100" height="5" rx="2.5"/><rect x="56" y="322" width="70" height="5" rx="2.5"/>
+    <rect x="456" y="308" width="100" height="5" rx="2.5"/><rect x="456" y="322" width="70" height="5" rx="2.5"/>
+  </g>
+  <g transform="translate(560 30)">
+    <path d="M0 0 l16 -9 l16 9 l-16 9 z" fill="#f3b99f"/>
+    <path d="M0 0 v18 l16 9 v-18 z" fill="#d9644f"/>
+    <path d="M32 0 v18 l-16 9 v-18 z" fill="#a63a52"/>
+  </g>
+</svg>
